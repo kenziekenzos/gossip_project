@@ -19,7 +19,7 @@ gossip.rb <br>
     new_gossip.erb <br>
     index.erb <br>
     show.erb <br>
-— <b>db<b>  <br>
+— <b>db</b>  <br>
     gossip.csv <br>
 Gemfile + Gemfile.lock
 
