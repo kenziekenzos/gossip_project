@@ -1,11 +1,12 @@
 require 'csv'
 
 class Gossip
- attr_accessor :author, :content 
+ attr_accessor :author, :content, :id
  
-    def initialize (author, content)
+    def initialize (author, content, id)
         @author=author
         @content=content
+        @id=id
     end 
 
     def save
@@ -19,7 +20,6 @@ class Gossip
         CSV.read("./lib/db/gossip.csv").each do |csv_line|
           all_gossips << Gossip.new(csv_line[0], csv_line[1])
         end
-        return all_gossips
-      end
-   
-end
+     return all_gossips
+    end
+ end
