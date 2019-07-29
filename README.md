@@ -15,7 +15,7 @@ Un programme laborieux contenant 7 fichiers
 config.ru <br>
 controller.rb <br>
 gossip.rb <br>
-— <b>Views</b> 
+— <b>Views</b> <br>
     new_gossip.erb <br>
     index.erb <br>
     show.erb <br>
